@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <AssemblyName>SmartUnitApi</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>SmartUnitApi</PackageId>
+    <RuntimeFrameworkVersion>1.1.1</RuntimeFrameworkVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.IISIntegration" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.IISIntegration.Tools" Version="1.1.0-preview4-final" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.WebSockets.Server" Version="0.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
+    <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="1.0.4" />
+  </ItemGroup>
+
+</Project>
