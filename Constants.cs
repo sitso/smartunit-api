@@ -19,6 +19,6 @@ namespace SmartUnitApi
         public const string ApiId = "smartunitapi";
         public const string ApiName = "SmartUnit API";
 
-        public const string FirebaseAPIKey = "AAAA6UxP3Y0:APA91bH5felEJ_bDm5Z6hObVIpUJaNKZvSV8eklOOLQXBlyhJ0PT-c7q373S_kMCJnFWiXb4gBFx0K94zyw-t6fzEUtS9gQcYpLwRgQlTH4Uh00jfed0YCTyXS0Zk74nG-kjAzjMpIQO";
+        public const string FirebaseAPIKey = "";
     }
 }
