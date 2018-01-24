@@ -1,16 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace SmartUnitApi
 {
@@ -20,7 +13,7 @@ namespace SmartUnitApi
         {
             var data = new
             {
-                to = "eW-EoRhvJfY:APA91bEuoefVdMVTCZBqw-L3uZYPUzl2G02H_vk_tdv48G6vGN_7ksOGObUqDlkmKPJY3C_1IZf1voUtn7Kmc4XJ1FLrozWqg-92zZ_14ZVoJMEypKR2NAtKa0O9J6omYr-lR9TTRktf",
+                to = "",
                 notification = new
                 {
                     title = "Alarm",
@@ -61,7 +54,7 @@ namespace SmartUnitApi
         {
             var data = new
             {
-                to = "eW-EoRhvJfY:APA91bEuoefVdMVTCZBqw-L3uZYPUzl2G02H_vk_tdv48G6vGN_7ksOGObUqDlkmKPJY3C_1IZf1voUtn7Kmc4XJ1FLrozWqg-92zZ_14ZVoJMEypKR2NAtKa0O9J6omYr-lR9TTRktf",
+                to = "",
                 data = new
                 {
                     type = msgType,
